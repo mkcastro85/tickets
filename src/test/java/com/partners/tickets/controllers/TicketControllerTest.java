@@ -36,7 +36,7 @@ class TicketControllerTest {
 
     @Test
     void testCreateTicket() throws Exception {
-        when(ticketService.create("testuser")).thenReturn(ticketDTO);
+        when(ticketService.create("Meyling")).thenReturn(ticketDTO);
 
         mockMvc.perform(post("/api/tickets")
                         .param("user", "Meyling")
