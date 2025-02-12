@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Builder
 public class TicketDTO {
 
+
     private Long id;
     private String username;
     private LocalDateTime creationDate;
